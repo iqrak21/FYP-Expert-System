@@ -1,0 +1,61 @@
+
+/* ----------------login---------------------------- */
+.login {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    height:100vh;
+    background-image: url('../assets/backgroud.jpg')
+  }
+  
+  .clientLogin {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    height:100vh;
+    background-image: url('../assets/login_cl.jpg');
+  }
+  
+  .cover {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117, 54, 230, .1);
+  }
+  
+  .auth-head-icon {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    box-shadow: 0 5px 20px #d6dee4;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, .8);
+  }
+  
+  .login-box .form-control {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .6);
+    color: #fff;
+  }
+  
+  .login-box .form-control:focus {
+    border-color: rgba(255, 255, 255, 1);
+  }
+  
+  .has-error {
+    color:#FF0000;  /* red */
+  }
+  
